@@ -1,8 +1,29 @@
 aid: safqah-holdings-limited
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/safqah-holdings-limited.png
 name: Safqah Holdings Limited
-description: Safqah Holdings Limited is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Safqah Holdings Limited operates Safqah (Safqah Capital / Safqah Financial), a
+  Saudi Arabian fintech platform headquartered in the Al-Malqa district of Riyadh
+  and regulated by the Saudi Capital Market Authority (CMA). Safqah provides
+  Sharia-compliant, debt-based real estate investment opportunities that let
+  qualified individual and institutional investors fund real estate development
+  deals starting from 1,000 SAR, alongside a financing arm that offers land
+  acquisition, residential development, commercial development, raw land, and
+  bridge financing to real estate developers. Investors track deal performance
+  through periodic reporting and live project camera feeds. The platform is a
+  consumer- and investor-facing web application with no publicly documented
+  developer API, SDK, or integration surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/safqah-holdings-limited/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Real Estate
+- Investment
+- Financing
+- Crowdfunding
+- Saudi Arabia
+- Sharia-Compliant
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +52,20 @@ maintainers:
 common:
 - type: Website
   url: https://safqah.co
+- type: Blog
+  url: https://safqah.co/ar/blog
+- type: Support
+  url: https://safqah.co/ar/contact
+- type: SignUp
+  url: https://sfq.ad/inv
+- type: TermsOfService
+  url: https://safqah.co/ar/legal/terms
+- type: PrivacyPolicy
+  url: https://safqah.co/ar/legal/privacy
+- type: DomainSecurity
+  url: security/safqah-holdings-limited-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
