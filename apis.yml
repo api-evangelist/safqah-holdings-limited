@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/safqah-holdings-limited.png
-name: Safqah Holdings Limited
+name: Safqah
 description: >-
   Safqah Holdings Limited operates Safqah (Safqah Capital / Safqah Financial), a
   Saudi Arabian fintech platform headquartered in the Al-Malqa district of Riyadh
@@ -48,7 +48,7 @@ modified: '2026-07-21'
 tags:
 - Company
 - Fintech
-- Real-Estate
+- Real Estate
 - Investment
 - Financing
 - Crowdfunding
@@ -63,6 +63,7 @@ tags_raw:
 - Crowdfunding
 - Saudi Arabia
 - Sharia-Compliant
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -89,3 +90,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: Safqah Holdings Limited
